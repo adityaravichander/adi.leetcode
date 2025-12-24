@@ -1,0 +1,82 @@
+// coding exercise
+
+// initialize a class for linkedlist
+
+class ListNode * {
+
+	int val;
+	ListNode* ptr;
+
+}
+
+// print elements of a linkedlist and store it in a array
+// function - store
+// name the return array as output
+
+// example : v1,p1  v2,p2 v3,p3 ... vn,nullptr
+vector<int> store(ListNode* inputList, int n)
+{
+
+vector<int> output = [];
+if(!inputList=nullptr)
+{
+	// Goal 1: Print LinkedList
+
+	//traverse through linkedlist
+
+	while(!inputList=nullptr)
+	{		
+	currentValue = inputList->val;
+	cout << currentValue;
+	output.push_back(currentValue);
+	inputList->next;
+	}	
+
+	// Goal 2: is to print outputReverse
+
+	int l = output.size();
+
+	for(int i = l - 1; i >=0; i--)
+	{
+		cout << output[i];	
+
+	}
+
+
+	// Goal 3: Output array is the input. Split into three/n arrays. 
+
+	// goal 3.1 --- 3 arrays 
+	
+		// traverse through the output array. 
+
+	vector<int> array_one;
+	vector<int> array_two;
+	vector<int> array_three;
+
+	for(int j = 0; j <= l-1; j++)
+	{
+	if(j%3==0)
+		array_one.push_back(output[i]);
+	else if(j%3==1)
+		array_two.push_back(output[i]);
+	else if (j%3==2)
+		array_three.push_back(output[i]);
+	}
+	
+
+	[reminder,array]
+
+	// 100 arrays. 
+
+}
+else
+	return [];
+
+}
+
+int main()
+{
+	
+
+
+}
