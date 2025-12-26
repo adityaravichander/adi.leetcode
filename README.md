@@ -1,4 +1,4 @@
-# adi.codes 
+# adi.leetcode
 
 I use this repo to practice coding in C++ and Python, specifically focusing on problems from Leetcode 75 , Blind 75 etc
 
