@@ -18,7 +18,11 @@ class Solution:
             if(len(heap) > k):
                 heapq.heappop(heap)
         
-        return [ item for freq, item in sorted(heap, reverse=True)]
+        topFreqNum = []
+        for i in range(k):
+            topFreqNum.append(heapq.heappop(heap)[1])
+        
+        return topFreqNum
 
 def main():
     n = [1,23,44,32,26,23,44,26]
