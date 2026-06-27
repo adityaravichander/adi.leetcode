@@ -1,3 +1,24 @@
+'''
+PSEUDO CODE: 
+
+A. SORT
+1. SORT BOTH INPUTS
+2. COMPARE IF THEY ARE EQUAL
+
+B. HASHMAP
+1. FOR i len(input)
+2. UPDATE TWO HASHMAPS for TWO INPUTS
+3. COMPARE TWO HASHMAPS
+
+C. HASHTABLE USING ARRAY
+1. COUNT ARRAY [0] *26
+2. FOR i len(input)
+3. count[char] +1 if in input1, count[char] -1 if in input2
+4. FOR count 
+5. if value != 0, return False, else True
+
+
+'''
 import string
 
 class Solution:
