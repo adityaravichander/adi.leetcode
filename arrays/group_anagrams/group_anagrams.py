@@ -1,3 +1,14 @@
+'''
+PSEUDO CODE: 
+
+A. HASH TABLE:
+1. FOR iterate through list of strings
+2. FOR iterate through one string
+3. update COUNT map [0] * 26 with key: value as char: count
+4. update RESULT map with key:value as tuple(count) : string
+5. RETURN LIST(RESULT.VALUES)
+
+'''
 from typing import List
 import string
 from collections import defaultdict
