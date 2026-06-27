@@ -1,3 +1,18 @@
+'''
+PSEUDO CODE - TWO SUM
+
+A. HASHMAP
+1. FOR array
+2. if diff in map, return indices
+3. else, add value:index to map
+
+B. brute force 
+1. FOR i in nums
+2. FOR j in i+1 to nums
+3. if nums[i] + nums[j] == target, return indices
+
+
+'''
 from typing import List
 
 class Solution:
