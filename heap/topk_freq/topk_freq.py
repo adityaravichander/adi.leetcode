@@ -1,3 +1,22 @@
+'''
+PSEUDO CODE: 
+
+A. SORTING + HASHMAP
+1. for nums, update COUNT with key:value as number:count
+2. array arr, append all elements from hashmap
+3. sort the array arr
+4. pop k elements from arr (pop pulls from end)
+
+B. MIN HEAP
+1. for nums, update COUNT map with key:value as number:count
+2. for n in MAP.KEYS()
+3. heapq.heappush(heap, (count[n],n)) -- add count,value to heap
+4. if len(heap) > k, pop from heap... heapq.heappop(heap)
+5. for i till k, append elements from heap to result array
+6. return result array
+
+
+'''
 from typing import List
 from collections import defaultdict
 import heapq
